@@ -2,6 +2,8 @@
 
 Por uma necessidade interna criamos um script interativo para montagem de volumes SSHFS no OSX. Esse script está encapsulado numa app do Automator que facilita o processo.
 
+Para mais informações do contexto desse repositório visite meu post no Medium: <https://medium.com/@pssdn/workflow-sistema-de-arquivos-remoto-fail-e24e0e8f1210>
+
 ##Utilização do shell script
 Para rodar o script certifique-se de que o mesmo possui permissão para execução:
 
@@ -39,3 +41,6 @@ Recomendo utilizar o script pela app exportada pelo Automator. A diferença prin
 Abra a app no Automator e edite as variáveis HOST e PORT. Depois disso, salve em Applications e divirta-se.
 
 ![Configure o Automator](http://farm.div64.com/repos/osx_sshfs_mount/automator.jpg)
+
+##@todo
+Gostaria de criar uma versão mais interativa do script, com suporte a argumentos e colorização também. Contribuições são muito bem vindas.
